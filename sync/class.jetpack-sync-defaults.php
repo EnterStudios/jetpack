@@ -129,6 +129,8 @@ class Jetpack_Sync_Defaults {
 		'mailserver_login', // Not syncing contents, only the option name
 		'mailserver_pass', // Not syncing contents, only the option name
 		'mailserver_port',
+		'google_my_business_keyring_id',
+		'google_my_business_location_id',
 	);
 
 	public static function get_options_whitelist() {
